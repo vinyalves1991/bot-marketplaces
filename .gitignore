@@ -1,0 +1,20 @@
+node_modules/
+.chrome-gemini-profile/
+.chrome-gemini-cdp-profile/
+.chrome-olx-profile/
+.firefox-controlled-profile/
+.firefox*/
+.chrome*/
+
+# Segredos e artefatos que jamais devem ir ao repositório
+.env
+.env.*
+*.log
+*.har
+*.trace.zip
+trace.zip
+test-results/
+playwright-report/
+storage-state*.json
+*.monitor.lock
+data/mercadolivre-notebooks/research/
